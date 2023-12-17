@@ -1,0 +1,140 @@
+body {
+    background-image: url(../images/bulut.webp);
+    background-size: cover;
+}
+
+.body {
+    width: 920px;
+    height: max-content;
+    margin: auto;
+    border: 1px solid #336699;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.banner {
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    height: max-content;
+    height: 400px;
+}
+
+.article {
+    width: 200px; 
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.link {
+    margin-bottom: 10px;
+    display: block;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #abccff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.aside {
+    width: 695px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #01007c;
+}
+
+span {
+    color: #a1bad1;
+}
+
+.adamresmi {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.footer {
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.footerlink {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px) { /* Mobil görünüm için medya sorgusu */
+    .body {
+        width: 400px;
+    }
+    
+    .banner {
+        height: 80px;
+    }
+    
+    .content {
+        height: 400px;
+    }
+    
+    .article {
+        width: 100px;
+    }
+    
+    .aside {
+        width: 300px;
+    }
+    
+    .footer {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { /* Tabletler için medya sorgusu */    
+    .body {
+        width: 600px;
+    }
+    
+    .banner {
+        height: 100px;
+    }
+    
+    .content {
+        height: 400px;
+    }
+    
+    .article {
+        width: 150px;
+    }
+    
+    .aside {
+        width: 450px;
+    }
+    
+    .footer {
+        width: 550px;
+        margin: auto;
+    }
+}
